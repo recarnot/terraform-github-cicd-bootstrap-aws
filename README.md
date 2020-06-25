@@ -1,4 +1,4 @@
-# Module : terraform-github-cicd-bootstrap
+# Module : terraform-github-cicd-bootstrap-aws
 This [**Terraform**](https://www.terraform.io/) module build a basic [**GitHub**](https://github.com/) repository to use **Terraform** **GitHub Actions** for Terraform **Cloud/Enterprise** projects.
 
 A **backend** to connect to enable **Terraform** Cloud/Enterprise state management is created.

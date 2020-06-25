@@ -76,3 +76,24 @@ variable "repository_has_downloads" {
   type        = bool
   default     = false
 }
+
+variable "aws_access_key" {
+  description = "AWS Access key ID"
+  type        = string
+}
+
+variable "aws_secret_key" {
+  description = "AWS Secret key"
+  type        = string
+}
+
+variable "aws_region" {
+  description = "AWS region"
+  type        = string
+}
+
+variable "aws_token" {
+  description = "AWS access token"
+  type        = string
+  default     = ""
+}
