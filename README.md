@@ -45,3 +45,12 @@ module "cicd_bootstrap_aws" {
 
 Take a look at  [terraform-github-cicd-bootstrap](https://registry.terraform.io/modules/recarnot/cicd-bootstrap/github/) module documentation for more details.
 
+
+
+## Managed resources
+
+This module creates (in addition to the resources of the cicd-bootstrap module) :
+
+- Variables for AWS credentials in Terraform workspace
+- A *provider.tf* file with AWS Provider definition (using workspace variables)
+
