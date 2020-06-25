@@ -71,7 +71,7 @@ resource "github_repository_file" "workflow" {
     }
   )
 
-  depends_on = [github_repository_file.provider]
+  depends_on = [github_repository_file.provider, module.cicd_bootstrap]
 }
 
 
