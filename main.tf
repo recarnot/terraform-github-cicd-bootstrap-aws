@@ -1,6 +1,8 @@
 module "cicd_bootstrap" {
   source = "recarnot/cicd-bootstrap/github"
 
+  auto_deploy_workflow = false
+
   github_token        = var.github_token
   github_organization = var.github_organization
 
@@ -71,7 +73,7 @@ resource "github_repository_file" "workflow" {
     }
   )
 
-  depends_on = [github_repository_file.provider, module.cicd_bootstrap]
+  depends_on = [github_repository_file.provider]
 }
 
 
