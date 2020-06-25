@@ -50,6 +50,8 @@ resource "github_repository_file" "provider" {
   repository = module.cicd_bootstrap.repository_name
   file       = "provider.tf"
   content    = templatefile("${path.module}/template/provider.tpl", {})
+
+  depends_on = [module.cicd_bootstrap]
 }
 
 locals {
