@@ -1,8 +1,11 @@
 # Module : terraform-github-cicd-bootstrap-aws
 
 <p align="left">
-  <a href="https://github.com/recarnot/terraform-github-cicd-bootstrap-aws/actions"><img alt="Plan check" src="https://github.com/recarnot/terraform-github-cicd-bootstrap-aws/workflows/Plan%20check/badge.svg" /></a>
-  <a href="https://github.com/recarnot/terraform-github-cicd-bootstrap-aws/actions"><img alt="Security check" src="https://github.com/recarnot/terraform-github-cicd-bootstrap-aws/workflows/Security%20check/badge.svg" /></a>
+<a href="https://github.com/recarnot/terraform-github-cicd-bootstrap-aws/"><img alt="Terraform version" src="https://img.shields.io/badge/Terraform-%3E%3D0.12-orange" /></a>
+<a href="https://registry.terraform.io/modules/recarnot/cicd-bootstrap-aws/github/"><img alt="Terraform registry" src="https://img.shields.io/github/v/release/recarnot/terraform-github-cicd-bootstrap-aws" /></a>
+<a href="https://github.com/recarnot/terraform-github-cicd-bootstrap-aws/actions"><img alt="Plan check" src="https://github.com/recarnot/terraform-github-cicd-bootstrap-aws/workflows/Plan%20check/badge.svg" /></a>
+<a href="https://github.com/recarnot/terraform-github-cicd-bootstrap-aws/actions"><img alt="Security check" src="https://github.com/recarnot/terraform-github-cicd-bootstrap-aws/workflows/Security%20check/badge.svg" /></a>
+<a href="https://registry.terraform.io/modules/recarnot/cicd-bootstrap-aws/github/"><img alt="Terraform registry" src="https://img.shields.io/badge/Terraform-registry-blue" /></a>
 </p>
 
 
